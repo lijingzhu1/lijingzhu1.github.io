@@ -9,10 +9,10 @@ title_separator: "-"
 name: "Lijing Zhu"
 description: "Academic portfolio and research in data science and machine learning"
 
-# ✅ 必须和 repo 完全一致
+# Must match the user site repo
 url: "https://lijingzhu1.github.io"
 baseurl: ""
-repository: "https://github.com/lijingzhu1/lijingzhu1.github.io"
+repository: "lijingzhu1/lijingzhu1.github.io"
 
 # Author Information
 author:
