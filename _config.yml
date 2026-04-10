@@ -1,4 +1,4 @@
-# Minimal Academic Personal Website Config (Stable Version)
+# Minimal Academic Personal Website Config (User Site Version)
 
 # Basic Site Settings
 locale: "en-US"
@@ -9,7 +9,7 @@ title_separator: "-"
 name: "Lijing Zhu"
 description: "Academic portfolio and research in data science and machine learning"
 
-# ⚠️ 这里必须和 repo 名一致
+# ✅ 必须和 repo 完全一致
 url: "https://lijingzhu1.github.io"
 baseurl: ""
 repository: "https://github.com/lijingzhu1/lijingzhu1.github.io"
@@ -44,7 +44,7 @@ kramdown:
   hard_wrap: false
   auto_ids: true
 
-# Collections (保留 academicpages 必需)
+# Collections (简化但保留必要结构)
 collections:
   publications:
     output: true
