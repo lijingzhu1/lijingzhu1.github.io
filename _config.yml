@@ -1,46 +1,40 @@
-# Jekyll Site Configuration - Minimal Academic Portfolio
+# Minimal Academic Personal Website Config (Stable Version)
 
 # Basic Site Settings
 locale: "en-US"
+site_theme: "default"
+
 title: "Lijing Zhu | Data Science & ML Research"
 title_separator: "-"
-name: &name "Lijing Zhu"
-description: &description "Academic portfolio and research projects in data science and machine learning"
-url: "https://lijingzhu.github.io"
-baseurl: ""
-repository: "https://github.com/lijingzhu1/lijingzhu.github.io"
+name: "Lijing Zhu"
+description: "Academic portfolio and research in data science and machine learning"
 
-# Site Author
+# ⚠️ 这里必须和 repo 名一致
+url: "https://lijingzhu1.github.io"
+baseurl: ""
+repository: "https://github.com/lijingzhu1/lijingzhu1.github.io"
+
+# Author Information
 author:
+  avatar: "profile.png"
   name: "Lijing Zhu"
-  bio: "Ph.D. in Data Science from Bowling Green State University, specializing in machine learning and graph-based deep learning. Data scientist at University of Houston-Clear Lake."
+  bio: "Ph.D. in Data Science from Bowling Green State University. Research focus on machine learning and graph-based deep learning. Data scientist at University of Houston-Clear Lake."
   location: "TX"
   employer: "University of Houston-Clear Lake"
   email: "zhul@uhcl.edu"
-  
-  # Academic & Professional Links
+
+  # Academic Links
   googlescholar: "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   github: "lijingzhu1"
-  linkedin: # "your-linkedin-username"
-  orcid: "https://orcid.org/yourorcidurl"
+  linkedin: ""
+  orcid: ""
 
-# Publication Categories
-publication_category:
-  books:
-    title: "Books"
-  manuscripts:
-    title: "Journal Articles"
-  conferences:
-    title: "Conference Papers"
-
-# Site Settings
+# Basic Settings
 breadcrumbs: false
 words_per_minute: 160
 future: true
-read_more: "disabled"
-talkmap_link: false
 
-# Markdown & Processing
+# Markdown
 markdown: kramdown
 highlighter: rouge
 excerpt_separator: "\n\n"
@@ -49,23 +43,13 @@ kramdown:
   input: GFM
   hard_wrap: false
   auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
 
-# Collections
+# Collections (保留 academicpages 必需)
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
     output: true
     permalink: /:collection/:path/
 
@@ -73,71 +57,33 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      share: true
-  - scope:
-      path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
+
   - scope:
       path: ""
       type: portfolio
     values:
       layout: single
       author_profile: true
-      share: true
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: single
-      author_profile: true
-      share: true
 
-# File Handling
+# Files
 include:
-  - .htaccess
   - _pages
+
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .bundle
-  - Gemfile
-  - Gemfile.lock
   - node_modules
   - vendor
-encoding: "utf-8"
+  - Gemfile
+  - Gemfile.lock
 
-# Output & Permalinks
+# Output
 permalink: /:categories/:title/
 timezone: "Etc/UTC"
 
-# Plugins (GitHub Pages compatible)
+# Plugins (GitHub Pages safe)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag
-
-# RSS Feed
-atom_feed:
-  hide: false
