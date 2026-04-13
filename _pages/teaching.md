@@ -18,6 +18,7 @@ The course information below summarizes recent and upcoming teaching assignments
 - **Room:** Delta Building 203
 - **Dates:** June 1, 2026 - July 2, 2026
 - **Enrollment:** Unknow
+  
 ## Spring 2026
 
 ### DASC 5231-01: Data Visualization (Lecture)
