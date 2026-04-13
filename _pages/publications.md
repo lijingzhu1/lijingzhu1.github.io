@@ -18,7 +18,7 @@ If you use this Markdown page, do not keep another page with the same permalink 
 **Venue:** *European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)*, 2025  
 **Status:** Accepted
 
-![Overall model figure for ETT-CKGE]({{ '/images/publications/ett-ckge-overview.png' | relative_url }})
+![Overall model figure for ETT-CKGE]({{ '/images/publications/'}})
 
 *Upload the model figure to `images/publications/ett-ckge-overview.png`.*
 
