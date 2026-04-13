@@ -32,7 +32,7 @@ repository: "lijingzhu1/lijingzhu1.github.io"
 # Author profile information
 # -------------------------
 author:
-  avatar: "images/16da41e4ad15515d1eef5bcf731ed298.JPG"    # Profile image file shown in the sidebar/profile area
+  avatar: "16da41e4ad15515d1eef5bcf731ed298.JPG"    # Profile image file shown in the sidebar/profile area
   name: "Lijing Zhu"
   bio: "Ph.D. in Data Science from Bowling Green State University. Research focus on machine learning and graph-based deep learning. Data scientist at University of Houston-Clear Lake."
   location: "TX"
